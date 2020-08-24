@@ -1,0 +1,24 @@
+// The syntax to indicate the type of message
+syntax = "proto3";
+
+option go_package = "github.com/sunil206b/Protobuff3_Go/src/simple";
+
+/* Person is used to identify users
+ * accross our system */ 
+message Person {
+    // The age the person's creation
+    int32 age = 1;
+    // The first name as documented in the signup form
+    string first_name = 2;
+    // last name as documented in the signup form
+    string last_name = 3;
+    // small_picture represents a small .jpg file
+    bytes small_picture = 4;
+    // is_profile_verified indicates the person verified or not
+    bool is_profile_verified = 5;
+    // height of the person in cms
+    float height = 6;
+
+    // list of phone numbers that is optional to provide at signup
+    repeated string pone_numbers = 7;
+}
