@@ -2,7 +2,7 @@
 #using absolute path or make sure the program is available in your PATH system variable
 #Resolve the above issue make sure yo configured the GO PATH as follows
 # 1. export GOROOT=/usr/local/go
-# 2. export GOPATH=/Users/sunil/go
+# 2. export GOPATH=/Users/(user_name)/go
 # 3. export GOBIN=$GOPATH/bin
 # 4. export PATH=$PATH:$GOROOT:$GOPATH:$GOBIN
 
